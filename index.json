@@ -10,6 +10,12 @@
       "path": "theBIKEnet/index.json",
 	  "website": "https://movprojects.com/thebikenet",  
       "description": "Questionnaires investigating cycling behaviour, safety perception and micromobility use."
+    },
+	 {
+      "id": "no_projects",
+      "name": "Research – Questionnaires without projects",
+      "path": "no_project/index.json",
+      "description": "Structured and versioned research questionnaires without project."
     }
   ]
 }
