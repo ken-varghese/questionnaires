@@ -1,0 +1,14 @@
+{
+  "organization": "Wemolab",
+  "repository": "questionnaires",
+  "description": "Open repository of structured, versioned and executable research questionnaires developed by Wemolab and PlanEasy's users.",
+  "license": "CC BY 4.0",
+  "projects": [
+    {
+      "id": "theBIKEnet",
+      "name": "theBIKEnet – Cycling and Micromobility Research",
+      "path": "theBIKEnet/index.json",
+      "description": "Questionnaires investigating cycling behaviour, safety perception and micromobility use."
+    }
+  ]
+}
