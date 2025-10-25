@@ -12,7 +12,7 @@
       "description": "Questionnaires investigating cycling behaviour, safety perception and micromobility use."
     },
 	 {
-      "id": "no_projects",
+      "id": "no_project",
       "name": "Research – Questionnaires without projects",
       "path": "no_project/index.json",
       "description": "Structured and versioned research questionnaires without project."
