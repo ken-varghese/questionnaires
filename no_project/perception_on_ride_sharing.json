@@ -1,61 +1,83 @@
 {
 	"questionnaire": {
+		"name": "Perceptions on Ride Sharing",
 		"questionnaire_id": "perception_on_ride_sharing",
 		"questionnaire_version": "0.0.0",
-		"name": "Perceptions on Ride Sharing",
-		"width": 0.5,
-		"auth": "http://localhost:3000",
+		"project": "",
+		"privacy_options": {
+			"ask_consent": false,
+			"save_user_id": false
+		},
+		"gdpr_link": "https://michetta91.github.io/planeasy-webgis/transparency.html",
 		"sections": [
 			{
 				"title": "Preface",
-				"backgroundColor": "#7BCCB5",
+				"description": "",
+				"backgroundColor": "#7bccb5",
 				"condition": "undefined",
 				"questions": [
 					{
 						"text": "Dear Participant,",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": []
 					},
 					{
 						"text": "Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": []
 					},
 					{
 						"text": "This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": []
 					},
 					{
 						"text": "The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": []
 					},
 					{
 						"text": "If you have any questions or would like to discuss this research further, please contact us via the email below",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": []
 					},
 					{
 						"text": "m.afsary@gmail.com",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": []
 					},
 					{
 						"text": "We appreciate the time you spend answering this questionnaire",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": []
 					}
 				]
 			},
 			{
 				"title": "Demographic information",
-				"backgroundColor": "#7BCCB5",
+				"description": "",
+				"backgroundColor": "#7bccb5",
 				"condition": "undefined",
 				"questions": [
 					{
 						"text": "what is your gender?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
 								"text": "Man"
@@ -68,6 +90,8 @@
 					{
 						"text": "how old are you?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
 								"text": "< 18 years"
@@ -92,17 +116,16 @@
 					{
 						"text": "What is your highest level of education?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "Deploma",
 								"text": "Diploma or less"
 							},
 							{
-								"text_id": "Bachelore",
 								"text": "Bachelor"
 							},
 							{
-								"text_id": "Master",
 								"text": "Master's or Ph.D"
 							}
 						]
@@ -110,25 +133,22 @@
 					{
 						"text": "What is your current employment status?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "Student",
 								"text": "Student"
 							},
 							{
-								"text_id": "Emploee",
 								"text": "Employee"
 							},
 							{
-								"text_id": "Mine",
 								"text": "My own business"
 							},
 							{
-								"text_id": "retired",
 								"text": "Retired"
 							},
 							{
-								"text_id": "unemploee",
 								"text": "Unemployed"
 							}
 						]
@@ -136,6 +156,8 @@
 					{
 						"text": "How many people live in your immediate family? Please write the total number of people, including yourself?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
 								"text": "One"
@@ -157,24 +179,22 @@
 					{
 						"text": "Can you tell how your family's income compares to other families in your community?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
 								"text": "Well below average"
 							},
 							{
-								"text_id": "Low",
 								"text": "Below average"
 							},
 							{
-								"text_id": "Average",
 								"text": "Average"
 							},
 							{
-								"text_id": "up",
 								"text": "Above average"
 							},
 							{
-								"text_id": "upper",
 								"text": "Much above average"
 							}
 						]
@@ -182,204 +202,174 @@
 				]
 			},
 			{
-				"section_id": "ModeChoice",
 				"title": "Factors related to the modes of travel",
-				"backgroundColor": "#B3D9D9",
+				"description": "",
+				"backgroundColor": "#b3d9d9",
 				"condition": "undefined",
 				"questions": [
 					{
-						"question_id": "Driving",
 						"text": "How many years of driving experience do you have?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "NoDrivingLicence",
 								"text": "0 (Because I don't have a driving license)"
 							},
 							{
-								"text_id": "NoConfidence",
 								"text": "0 (Because I don't have confidence in driving a car)"
 							},
 							{
-								"text_id": "less3",
 								"text": "Less than 3 years"
 							},
 							{
-								"text_id": "3to10",
 								"text": "3-10 years"
 							},
 							{
-								"text_id": "moreThan10",
 								"text": "More than 10 years"
 							}
 						]
 					},
 					{
-						"question_id": "VehicleNumber",
 						"text": "How many cars does your family own?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "Zero",
 								"text": "Zero"
 							},
 							{
-								"text_id": "One",
 								"text": "One"
 							},
 							{
-								"text_id": "Two",
 								"text": "two"
 							},
 							{
-								"text_id": "ThreeMore",
 								"text": "Three and more than three"
 							}
 						]
 					},
 					{
-						"question_id": "MotorNumber",
 						"text": "How many motorcycles does your family own?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "Zero",
 								"text": "Zero"
 							},
 							{
-								"text_id": "One",
 								"text": "One"
 							},
 							{
-								"text_id": "Two",
 								"text": "two"
 							},
 							{
-								"text_id": "Three",
 								"text": "Three and more than three"
 							}
 						]
 					},
 					{
-						"question_id": "StationAvailability",
 						"text": "How far is the walking distance from your home to the nearest metro or bus station that you usually use?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "5min",
 								"text": "0-5 minutes"
 							},
 							{
-								"text_id": "10Min",
 								"text": "6-10 minutes"
 							},
 							{
-								"text_id": "15Min",
 								"text": "11-15 minutes"
 							},
 							{
-								"text_id": "More15",
 								"text": "More than 15 minutes"
 							}
 						]
 					},
 					{
-						"question_id": "Reason",
 						"text": "How often do you go on city trips? (such as school, workplace or for shopping and entertainment)",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "Daily",
 								"text": "Daily"
 							},
 							{
-								"text_id": "SeveralinDay",
 								"text": "Several times a day"
 							},
 							{
-								"text_id": "Weekly",
 								"text": "weekly"
 							},
 							{
-								"text_id": "SeveralaWeek",
 								"text": "Several times a week"
 							},
 							{
-								"text_id": "SeveralaMonth",
 								"text": "Several times a month"
 							},
 							{
-								"text_id": "Occasionally",
 								"text": "with irregular intervals or without setting time"
 							}
 						]
 					},
 					{
-						"question_id": "Destination",
 						"text": "What destinations do you most travel to?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "Scchool",
 								"text": "school or university"
 							},
 							{
-								"text_id": "Work",
 								"text": "Workplace"
 							},
 							{
-								"text_id": "Shopping",
 								"text": "Shopping"
 							},
 							{
-								"text_id": "Lisure",
 								"text": "Having fun or meeting friends"
 							},
 							{
-								"text_id": "FamilySupport",
 								"text": "Supporting family members"
 							},
 							{
-								"text_id": "ServicesHospital",
 								"text": "Other services such as hospitals"
 							}
 						]
 					},
 					{
-						"question_id": "ModeChoice",
 						"text": "Which modes of transportation do you use the most? Select more than one option if desired",
 						"question_type": "multiple_options",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "Car",
 								"text": "personal car"
 							},
 							{
-								"text_id": "Motor",
 								"text": "motorcycle"
 							},
 							{
-								"text_id": "BusMetro",
 								"text": "Bus/Metro"
 							},
 							{
-								"text_id": "Taxi",
 								"text": "Taxis in the city"
 							},
 							{
-								"text_id": "Van",
 								"text": "Van"
 							},
 							{
-								"text_id": "InternetTaxi",
 								"text": "Agency or internet taxis such as Tapsi or Snap"
 							},
 							{
-								"text_id": "Bike",
 								"text": "Bike"
 							},
 							{
-								"text_id": "Walk",
 								"text": "walking"
 							}
 						]
@@ -387,306 +377,264 @@
 				]
 			},
 			{
-				"section_id": "Taxi",
 				"title": "Taxi",
-				"backgroundColor": "#AFDCEC",
+				"description": "",
+				"backgroundColor": "#afdcec",
 				"condition": "undefined",
 				"questions": [
 					{
-						"question_id": "Defin8",
 						"text": "Online shared taxi is a service that, by using mobile applications, users can share their trips with other passengers on the same route, reduce costs and optimize transportation.",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": []
 					},
 					{
-						"question_id": "TaxiUse",
 						"text": "Please choose based on your experience using a taxi",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "NeverUse",
 								"text": "I have never used taxis"
 							},
 							{
-								"text_id": "Normal",
 								"text": "I have used taxis in the city"
 							},
 							{
-								"text_id": "Share",
 								"text": "I have used shared online taxis"
 							},
 							{
-								"text_id": "Both",
 								"text": "I have used both regular and online shared taxi services"
 							}
 						]
 					},
 					{
-						"question_id": "Security",
 						"text": "How do you evaluate the security of taxis?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "VeryUnsecure",
 								"text": "very unsecured"
 							},
 							{
-								"text_id": "Unsecure",
 								"text": "Unsecured"
 							},
 							{
-								"text_id": "AlmostUnsecure",
 								"text": "Relatively secured"
 							},
 							{
-								"text_id": "Secure",
 								"text": "Secured"
 							},
 							{
-								"text_id": "VerySecure",
 								"text": "very secured"
 							}
 						]
 					},
 					{
-						"question_id": "FamiliarAccompany",
 						"text": "How secured do you feel when you are using a taxi with a 'familiar person'?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "VeryUnsecure",
 								"text": "very unsecured"
 							},
 							{
-								"text_id": "Unsecure",
 								"text": "Unsecured"
 							},
 							{
-								"text_id": "AlmostUnsecure",
 								"text": "Relatively secured"
 							},
 							{
-								"text_id": "Secure",
 								"text": "Secured"
 							},
 							{
-								"text_id": "VerySecure",
 								"text": "very secured"
 							}
 						]
 					},
 					{
-						"question_id": "FemaleStranger",
 						"text": "How secured do you feel when you are using a taxi with 'strange women'?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "VeryUnsecure",
 								"text": "very unsecured"
 							},
 							{
-								"text_id": "Unsecure",
 								"text": "Unsecured"
 							},
 							{
-								"text_id": "AlmostUnsecure",
 								"text": "Relatively secured"
 							},
 							{
-								"text_id": "Secure",
 								"text": "Secured"
 							},
 							{
-								"text_id": "VerySecure",
 								"text": "very secured"
 							}
 						]
 					},
 					{
-						"question_id": "MaleStranger",
 						"text": "How secured do you feel when you are using a taxi with 'strange men'?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "VeryUnsecure",
 								"text": "very unsecured"
 							},
 							{
-								"text_id": "Unsecure",
 								"text": "Unsecured"
 							},
 							{
-								"text_id": "AlmostUnsecure",
 								"text": "Relatively secured"
 							},
 							{
-								"text_id": "Secure",
 								"text": "Secured"
 							},
 							{
-								"text_id": "VerySecure",
 								"text": "very secured"
 							}
 						]
 					},
 					{
-						"question_id": "DayLight",
 						"text": "How secured do you feel when you use a taxi 'during the day'?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "VeryUnsecure",
 								"text": "very unsecured"
 							},
 							{
-								"text_id": "Unsecure",
 								"text": "Unsecured"
 							},
 							{
-								"text_id": "AlmostUnsecure",
 								"text": "Relatively secured"
 							},
 							{
-								"text_id": "Secure",
 								"text": "Secured"
 							},
 							{
-								"text_id": "VerySecure",
 								"text": "very secured"
 							}
 						]
 					},
 					{
-						"question_id": "Night",
 						"text": "How secured do you feel when you use a taxi ' during the night '?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "VeryUnsecure",
 								"text": "very unsecured"
 							},
 							{
-								"text_id": "Unsecure",
 								"text": "Unsecured"
 							},
 							{
-								"text_id": "AlmostUnsecure",
 								"text": "Relatively secured"
 							},
 							{
-								"text_id": "Secure",
 								"text": "Secured"
 							},
 							{
-								"text_id": "VerySecure",
 								"text": "very secured"
 							}
 						]
 					},
 					{
-						"question_id": "Urban",
 						"text": "How secured do you feel when you use a taxi in 'urban areas'?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "VeryUnsecure",
 								"text": "very unsecured"
 							},
 							{
-								"text_id": "Unsecure",
 								"text": "Unsecured"
 							},
 							{
-								"text_id": "AlmostUnsecure",
 								"text": "Relatively secured"
 							},
 							{
-								"text_id": "Secure",
 								"text": "Secured"
 							},
 							{
-								"text_id": "VerySecure",
 								"text": "very secured"
 							}
 						]
 					},
 					{
-						"question_id": "OutsideUrban",
 						"text": "How secured do you feel when you use a taxi in the 'Outside the city Areas'?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "VeryUnsecure",
 								"text": "very unsecured"
 							},
 							{
-								"text_id": "Unsecure",
 								"text": "Unsecured"
 							},
 							{
-								"text_id": "AlmostUnsecure",
 								"text": "Relatively secured"
 							},
 							{
-								"text_id": "Secure",
 								"text": "Secured"
 							},
 							{
-								"text_id": "VerySecure",
 								"text": "very secured"
 							}
 						]
 					},
 					{
-						"question_id": "DriverGender",
 						"text": "Do you have a preference for the 'gender of the driver' of the shared taxi?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "ManSafe",
 								"text": "Yes, I prefer male driver because they drive better and safer"
 							},
 							{
-								"text_id": "ManSecure",
 								"text": "Yes, I prefer a male driver, because I feel secured with a male driver"
 							},
 							{
-								"text_id": "WomanSafe",
 								"text": "Yes, I prefer female driver because they drive better and safer"
 							},
 							{
-								"text_id": "WomanSecure",
 								"text": "Yes, I prefer a female driver, because I feel secured with a female driver"
 							},
 							{
-								"text_id": "NoDifference",
 								"text": "There is no difference"
 							}
 						]
 					},
 					{
-						"question_id": "Social",
 						"text": "Do you think your willingness or unwillingness to talk to strangers might influence your choice of taxi service?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "YesLike",
 								"text": "Yes, it has an effect, I like to talk to people"
 							},
 							{
-								"text_id": "YesNotLike",
 								"text": "Yes, it has an effect, I feel uncomfortable talking to strangers"
 							},
 							{
-								"text_id": "NoDifference",
 								"text": "It does not affect my choice"
 							},
 							{
-								"text_id": "NoLike",
 								"text": "No, it doesn't matter, although I like to talk to people"
 							},
 							{
-								"text_id": "NoNotLike",
 								"text": "No, it doesn't matter, although I feel uncomfortable talking to strangers"
 							}
 						]
@@ -694,527 +642,313 @@
 				]
 			},
 			{
-				"section_id": "Score",
 				"title": "Scoring",
-				"backgroundColor": "#7C9D8E",
+				"description": "",
+				"backgroundColor": "#7c9d8e",
 				"condition": "undefined",
 				"questions": [
 					{
-						"question_id": "Define9",
 						"text": "Safety refers to protecting people from unintentional hazards and incidents such as accidents and vehicle breakdowns, while security is concerned with protecting people from intentional threats such as theft and criminal attacks.",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": []
 					},
 					{
-						"question_id": "Score",
 						"text": "In each section, please rate the importance of the issue in using a taxi on a scale of 1-5, where 1 means 'not important' and 5 means 'very important'",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": []
 					},
 					{
-						"question_id": " Security ",
 						"text": "security",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "1",
 								"text": "1"
 							},
 							{
-								"text_id": "2",
 								"text": "2"
 							},
 							{
-								"text_id": "3",
 								"text": "3"
 							},
 							{
-								"text_id": "4",
 								"text": "4"
 							},
 							{
-								"text_id": "5",
 								"text": "5"
 							}
 						]
 					},
 					{
-						"question_id": " Safety",
 						"text": "safety",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "1",
 								"text": "1"
 							},
 							{
-								"text_id": "2",
 								"text": "2"
 							},
 							{
-								"text_id": "3",
 								"text": "3"
 							},
 							{
-								"text_id": "4",
 								"text": "4"
 							},
 							{
-								"text_id": "5",
 								"text": "5"
 							}
 						]
 					},
 					{
-						"question_id": " Convinience ",
 						"text": "Convenience and ease (such as having an air conditioner, comfortable seats, etc.)",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "1",
 								"text": "1"
 							},
 							{
-								"text_id": "2",
 								"text": "2"
 							},
 							{
-								"text_id": "3",
 								"text": "3"
 							},
 							{
-								"text_id": "4",
 								"text": "4"
 							},
 							{
-								"text_id": "5",
 								"text": "5"
 							}
 						]
 					},
 					{
-						"question_id": "TravelTime",
 						"text": "Travel time",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "1",
 								"text": "1"
 							},
 							{
-								"text_id": "2",
 								"text": "2"
 							},
 							{
-								"text_id": "3",
 								"text": "3"
 							},
 							{
-								"text_id": "4",
 								"text": "4"
 							},
 							{
-								"text_id": "5",
 								"text": "5"
 							}
 						]
 					},
 					{
-						"question_id": "Cleaniness",
 						"text": "Car cleanliness",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "1",
 								"text": "1"
 							},
 							{
-								"text_id": "2",
 								"text": "2"
 							},
 							{
-								"text_id": "3",
 								"text": "3"
 							},
 							{
-								"text_id": "4",
 								"text": "4"
 							},
 							{
-								"text_id": "5",
 								"text": "5"
 							}
 						]
 					},
 					{
-						"question_id": "Cost",
 						"text": "Taxi fares",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "1",
 								"text": "1"
 							},
 							{
-								"text_id": "2",
 								"text": "2"
 							},
 							{
-								"text_id": "3",
 								"text": "3"
 							},
 							{
-								"text_id": "4",
 								"text": "4"
 							},
 							{
-								"text_id": "5",
 								"text": "5"
 							}
 						]
 					},
 					{
-						"section_id": "Harrassment",
-						"title": "Sexual harassment",
-						"backgroundColor": "#A2AD9C",
+						"text": "Question Text",
+						"question_type": "single_option",
 						"condition": "undefined",
-						"questions": [
-							{
-								"question_id": "Define10",
-								"text": "Sexual harassment includes intentional and inappropriate sexual behavior, such as inappropriate physical contact. While imaginary sexual harassment is the unpleasant feeling caused by a person's interpretation or personal sensitivities that they imagine sexual intent in the behavior of others, this intent may not be real.",
-								"question_type": "single_option",
-								"options": []
-							},
-							{
-								"question_id": "HarrassmentExperience",
-								"text": "Have you ever had an unpleasant experience involving sexual harassment while using a taxi?",
-								"question_type": "single_option",
-								"options": [
-									{
-										"text_id": "Never",
-										"text": "Never"
-									},
-									{
-										"text_id": "Rarely",
-										"text": "rarely"
-									},
-									{
-										"text_id": "Sometimes",
-										"text": "sometimes"
-									},
-									{
-										"text_id": "Mostly",
-										"text": "mostly"
-									},
-									{
-										"text_id": "Many times",
-										"text": "Many times"
-									}
-								]
-							},
-							{
-								"question_id": "ImaginaryHarrasment",
-								"text": "Have you ever experienced an unpleasant touch, or an unpleasant feeling from the behavior of the driver or other passengers while using a taxi? (Imaginary sexual harassment)",
-								"question_type": "single_option",
-								"options": [
-									{
-										"text_id": "Never",
-										"text": "Never"
-									},
-									{
-										"text_id": "Rarely",
-										"text": "rarely"
-									},
-									{
-										"text_id": "Sometimes",
-										"text": "sometimes"
-									},
-									{
-										"text_id": "Mostly",
-										"text": "mostly"
-									},
-									{
-										"text_id": "Many times",
-										"text": "Many times"
-									}
-								]
-							},
-							{
-								"question_id": "Witness",
-								"text": "Have you ever witnessed any sexual harassment or making other passengers feel uncomfortable while using a taxi?",
-								"question_type": "single_option",
-								"options": [
-									{
-										"text_id": "Never",
-										"text": "Never"
-									},
-									{
-										"text_id": "Rarely",
-										"text": "rarely"
-									},
-									{
-										"text_id": "Sometimes",
-										"text": "sometimes"
-									},
-									{
-										"text_id": "Mostly",
-										"text": "mostly"
-									},
-									{
-										"text_id": "Many times",
-										"text": "Many times"
-									}
-								]
-							},
-							{
-								"question_id": "OtherExperience",
-								"text": "Have you ever heard from people who were sexually harassed in a taxi or had an unpleasant feeling from the behavior of the driver or other passengers?",
-								"question_type": "single_option",
-								"options": [
-									{
-										"text_id": "Never",
-										"text": "Never"
-									},
-									{
-										"text_id": "Rarely",
-										"text": "rarely"
-									},
-									{
-										"text_id": "Sometimes",
-										"text": "sometimes"
-									},
-									{
-										"text_id": "Mostly",
-										"text": "mostly"
-									},
-									{
-										"text_id": "Many times",
-										"text": "Many times"
-									}
-								]
-							},
-							{
-								"question_id": "Newspaper",
-								"text": "Have you ever heard or read about sexual harassment in a taxi through the media or newspapers?",
-								"question_type": "single_option",
-								"options": [
-									{
-										"text_id": "Never",
-										"text": "Never"
-									},
-									{
-										"text_id": "Rarely",
-										"text": "rarely"
-									},
-									{
-										"text_id": "Sometimes",
-										"text": "sometimes"
-									},
-									{
-										"text_id": "Mostly",
-										"text": "mostly"
-									},
-									{
-										"text_id": "Many times",
-										"text": "Many times"
-									}
-								]
-							},
-							{
-								"question_id": "Robbery",
-								"text": "Have you ever been robbed or witnessed a robbery while using a taxi?",
-								"question_type": "single_option",
-								"options": [
-									{
-										"text_id": "Never",
-										"text": "Never"
-									},
-									{
-										"text_id": "Rarely",
-										"text": "rarely"
-									},
-									{
-										"text_id": "Sometimes",
-										"text": "sometimes"
-									},
-									{
-										"text_id": "Mostly",
-										"text": "mostly"
-									},
-									{
-										"text_id": "Many times",
-										"text": "Many times"
-									}
-								]
-							}
-						]
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": []
 					}
 				]
 			},
 			{
-				"section_id": "SocialUnderstanding",
 				"title": "Social perception",
-				"backgroundColor": "#B5EAAA",
+				"description": "",
+				"backgroundColor": "#b5eaaa",
 				"condition": "undefined",
 				"questions": [
 					{
-						"question_id": "OtheLevel",
 						"text": "Do you care about the social class of other passengers when using a taxi?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "NotImportant",
 								"text": "not important"
 							},
 							{
-								"text_id": "LittleImportant",
 								"text": "A bit important"
 							},
 							{
-								"text_id": "Relatively important",
 								"text": "Relatively important"
 							},
 							{
-								"text_id": "Important",
 								"text": "Important"
 							},
 							{
-								"text_id": "Very important",
 								"text": "Very important"
 							}
 						]
 					},
 					{
-						"question_id": "LevelWorry",
 						"text": "Have you ever hesitated to take a taxi because of concern about your social image?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "Never",
 								"text": "Never"
 							},
 							{
-								"text_id": "Rarely",
 								"text": "rarely"
 							},
 							{
-								"text_id": "Sometimes",
 								"text": "sometimes"
 							},
 							{
-								"text_id": "Mostly",
 								"text": "mostly"
 							},
 							{
-								"text_id": "Many times",
 								"text": "Many times"
 							}
 						]
 					},
 					{
-						"question_id": "Religion",
 						"text": "How often do you go to a religious place (such as church, mosque, etc.)?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "Never",
 								"text": "Never"
 							},
 							{
-								"text_id": "Rarely",
 								"text": "rarely"
 							},
 							{
-								"text_id": "SeveralTimesaYear",
 								"text": "Several times a year"
 							},
 							{
-								"text_id": "Monthly",
 								"text": "monthly"
 							},
 							{
-								"text_id": "Weekly",
 								"text": "Weekly or more"
 							}
 						]
 					},
 					{
-						"question_id": "ReligionActivity",
 						"text": "How often do you engage in private religious activities, such as prayer, meditation, etc.?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "Never",
 								"text": "Never"
 							},
 							{
-								"text_id": "OnceaMonth",
 								"text": "once a month"
 							},
 							{
-								"text_id": "OnceaWeek",
 								"text": "once a week"
 							},
 							{
-								"text_id": "SeveralTimesWeek",
 								"text": "Several times a week"
 							},
 							{
-								"text_id": "Daily",
 								"text": "Daily"
 							}
 						]
 					},
 					{
-						"question_id": "FamilyNorm",
 						"text": "Do family restrictions directly affect your decisions about how to travel?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "YesAlways",
 								"text": "Yes, always"
 							},
 							{
-								"text_id": "YesMostly",
 								"text": "Yes, most of the time"
 							},
 							{
-								"text_id": "YesSometimes",
 								"text": "Yes, sometimes"
 							},
 							{
-								"text_id": "Rarely",
 								"text": "rarely"
 							},
 							{
-								"text_id": "NoNever",
 								"text": "No, never"
 							}
 						]
 					},
 					{
-						"question_id": "FamilyAdvice",
 						"text": "Do you take your family's advice into account when deciding about mode of transportation ?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "YesAlways",
 								"text": "Yes, always"
 							},
 							{
-								"text_id": "YesMostly",
 								"text": "Yes, most of the time"
 							},
 							{
-								"text_id": "YesSometimes",
 								"text": "Yes, sometimes"
 							},
 							{
-								"text_id": "Rarely",
 								"text": "rarely"
 							},
 							{
-								"text_id": "NoNever",
 								"text": "No, never"
 							}
 						]
@@ -1222,21 +956,23 @@
 				]
 			},
 			{
-				"section_id": "Survey",
 				"title": "Survey",
+				"description": "",
 				"backgroundColor": "#7dd4c5",
 				"condition": "undefined",
 				"questions": [
 					{
-						"question_id": "Define14",
 						"text": "Pink transportation refers to services that are specifically designed for women and aim to provide a safer and more comfortable travel experience, such as women-only taxis or separate spaces on buses and subways for women.",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": []
 					},
 					{
-						"question_id": "Pink",
 						"text": "Do you think that pink transportation has given an appropriate answer to the security issue?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
 								"text": "Yes"
@@ -1247,15 +983,17 @@
 						]
 					},
 					{
-						"question_id": "Define11",
 						"text": "Security apps are usually designed to help travelers stay safer on their travels. Some of the features of these applications include tracking, sending emergency messages, or reporting anti-social behavior or vandalism.",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": []
 					},
 					{
-						"question_id": "SecurityApp",
 						"text": "Have you ever downloaded or purchased a security app?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
 								"text": "Yes"
@@ -1266,9 +1004,10 @@
 						]
 					},
 					{
-						"question_id": "Privacy",
 						"text": "Do you have privacy concerns using these types of apps?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
 								"text": "Yes"
@@ -1279,159 +1018,140 @@
 						]
 					},
 					{
-						"question_id": "PreferenceProblem",
 						"text": "What is your preference when facing any security problem in a taxi?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text": "Contact a familiar person",
-								"value": "CallFamiliar"
+								"text": "Contact a familiar person"
 							},
 							{
-								"text": "Go to the police",
-								"value": "Police"
+								"text": "Go to the police"
 							},
 							{
-								"text": "Direct phone call to the transportation provider center and report the issue",
-								"value": "CallTransport"
+								"text": "Direct phone call to the transportation provider center and report the issue"
 							},
 							{
-								"text": "Using security applications and reporting the issue anonymously",
-								"value": "App"
+								"text": "Using security applications and reporting the issue anonymously"
 							},
 							{
-								"text": "The use of security applications and the possibility of reporting the issue with personal or anonymous information",
-								"value": "AppKnown"
+								"text": "The use of security applications and the possibility of reporting the issue with personal or anonymous information"
 							}
 						]
 					},
 					{
-						"question_id": "IncreaseCost",
 						"text": "How much more would you be willing to pay for a taxi that implements enhanced security measures? Such as tracking the vehicle's route, and verifying the driver's identity. Please indicate your willingness to pay a percentage increase from the standard fare",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text": "0-10%",
-								"value": "10"
+								"text": "0-10%"
 							},
 							{
-								"text": "11-20%",
-								"value": "20"
+								"text": "11-20%"
 							},
 							{
-								"text": "21-30%",
-								"value": "30"
+								"text": "21-30%"
 							},
 							{
-								"text": "More than 30 percent",
-								"value": "More30"
+								"text": "More than 30 percent"
 							},
 							{
-								"text": "I'm not willing to spend more for additional security.",
-								"value": "NoPay"
+								"text": "I'm not willing to spend more for additional security."
 							}
 						]
 					}
 				]
 			},
 			{
-				"section_id": "Future",
 				"title": "The future implementation",
-				"backgroundColor": "F0FFF0",
+				"description": "",
+				"backgroundColor": "#000000",
 				"condition": "undefined",
 				"questions": [
 					{
-						"question_id": "Rate",
 						"text": "Please rate the importance of each topic on a scale of 1-5, where 1 is 'not important' and 5 is 'very important'",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": []
 					},
 					{
-						"question_id": "Location",
 						"text": "Send your location or taxi information to trusted contacts while using a taxi.",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "1",
 								"text": "1"
 							},
 							{
-								"text_id": "2",
 								"text": "2"
 							},
 							{
-								"text_id": "3",
 								"text": "3"
 							},
 							{
-								"text_id": "4",
 								"text": "4"
 							},
 							{
-								"text_id": "5",
 								"text": "5"
 							}
 						]
 					},
 					{
-						"question_id": "RealTimeTracking",
 						"text": "Implement real-time driver tracking feature to enhance security",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "1",
 								"text": "1"
 							},
 							{
-								"text_id": "2",
 								"text": "2"
 							},
 							{
-								"text_id": "3",
 								"text": "3"
 							},
 							{
-								"text_id": "4",
 								"text": "4"
 							},
 							{
-								"text_id": "5",
 								"text": "5"
 							}
 						]
 					},
 					{
-						"question_id": "Camera",
 						"text": "Implementing surveillance features such as the use of in-cab surveillance cameras to add security and monitoring during trips",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
-								"text_id": "1",
 								"text": "1"
 							},
 							{
-								"text_id": "2",
 								"text": "2"
 							},
 							{
-								"text_id": "3",
 								"text": "3"
 							},
 							{
-								"text_id": "4",
 								"text": "4"
 							},
 							{
-								"text_id": "5",
 								"text": "5"
 							}
 						]
 					},
 					{
-						"question_id": "Idea",
 						"text": "If you have any experience or ideas related to this research, we would be very happy for you to share them with us.",
 						"question_type": "text",
-						"options": []
+						"prefer_not_to_say": false,
+						"add_other": false
 					}
 				]
 			}
@@ -1442,24 +1162,17 @@
 			"code": "en",
 			"#0 (Because I don't have a driving license)": "0 (Because I don't have a driving license) ",
 			"#0 (Because I don't have confidence in driving a car)": "0 (Because I don't have confidence in driving a car)",
-			"#Have you ever experienced an unpleasant touch, or an unpleasant feeling from the behavior of the driver or other passengers while using a taxi? (Imaginary sexual harassment)": "Have you ever experienced an unpleasant touch, or an unpleasant feeling from the behavior of the driver or other passengers while using a taxi? (Imaginary sexual harassment)",
-			"#0 (because I don't have a personal car)": "0 (because I don't have a personal car)",
 			"#0-10%": "0-10%",
 			"#0-5 minutes": "0-5 minutes",
-			"#1 - 5 years": "1 - 5 years",
-			"#1-3 km": "1-3 km",
 			"#11-15 minutes": "11-15 minutes",
 			"#11-20%": "11-20%",
 			"#18-24": "18-24",
 			"#21-30%": "21-30%",
 			"#25-34": "25-34",
 			"#3-10 years": "3-10 years",
-			"#3-5 km": "3-5 km",
 			"#35-49": "35-49",
-			"#50-59": "50-59",
 			"#6-10 minutes": "6-10 minutes",
 			"#< 18 years": "< 18 years",
-			"#>60": ">60",
 			"#A bit important": "A bit important",
 			"#Above average": "Above average",
 			"#Agency or internet taxis such as Tapsi or Snap": "Agency or internet taxis such as Tapsi or Snap",
@@ -1470,7 +1183,6 @@
 			"#Bus/Metro": "Bus/Metro",
 			"#Can you tell how your family's income compares to other families in your community?": "Can you tell how your family's income compares to other families in your community?",
 			"#Car cleanliness": "Car cleanliness",
-			"#Compared to other families in your community, can you describe how your family's income is?": "Compared to other families in your community, can you describe how your family's income is?",
 			"#Contact a familiar person": "Contact a familiar person",
 			"#Convenience and ease (such as having an air conditioner, comfortable seats, etc.)": "Convenience and ease (such as having an air conditioner, comfortable seats, etc.)",
 			"#Daily": "Daily",
@@ -1480,7 +1192,6 @@
 			"#Direct phone call to the transportation provider center and report the issue": "Direct phone call to the transportation provider center and report the issue",
 			"#Do family restrictions directly affect your decisions about how to travel?": "Do family restrictions directly affect your decisions about how to travel?",
 			"#Do you care about the social class of other passengers when using a taxi?": "Do you care about the social class of other passengers when using a taxi?",
-			"#Do you have a driving license?": "Do you have a driving license?",
 			"#Do you have a preference for the 'gender of the driver' of the shared taxi?": "Do you have a preference for the 'gender of the driver' of the shared taxi?",
 			"#Do you have privacy concerns using these types of apps?": "Do you have privacy concerns using these types of apps?",
 			"#Do you take your family's advice into account when deciding about mode of transportation ?": "Do you take your family's advice into account when deciding about mode of transportation ?",
@@ -1490,20 +1201,12 @@
 			"#Factors related to the modes of travel": "Factors related to the modes of travel",
 			"#Female": "Female",
 			"#Five and more": "Five and more",
-			"#Future implementation": "Future implementation",
 			"#Go to the police": "Go to the police",
-			"#Have you ever been robbed or witnessed a robbery while using a taxi?": "Have you ever been robbed or witnessed a robbery while using a taxi?",
 			"#Have you ever downloaded or purchased a security app?": "Have you ever downloaded or purchased a security app?",
-			"#Have you ever felt uncomfortable when using a taxi because of the difference in the social level of other passengers?": "Have you ever felt uncomfortable when using a taxi because of the difference in the social level of other passengers?",
-			"#Have you ever had an unpleasant experience involving sexual harassment while using a taxi?": "Have you ever had an unpleasant experience involving sexual harassment while using a taxi?",
-			"#Have you ever heard from people who were sexually harassed in a taxi or had an unpleasant feeling from the behavior of the driver or other passengers?": "Have you ever heard from people who were sexually harassed in a taxi or had an unpleasant feeling from the behavior of the driver or other passengers?",
-			"#Have you ever heard or read about sexual harassment in a taxi through the media or newspapers?": "Have you ever heard or read about sexual harassment in a taxi through the media or newspapers?",
 			"#Have you ever hesitated to take a taxi because of concern about your social image?": "Have you ever hesitated to take a taxi because of concern about your social image?",
-			"#Have you ever witnessed any sexual harassment or making other passengers feel uncomfortable while using a taxi?": "Have you ever witnessed any sexual harassment or making other passengers feel uncomfortable while using a taxi?",
 			"#Having fun or meeting friends": "Having fun or meeting friends",
 			"#How do you evaluate the security of taxis?": "How do you evaluate the security of taxis?",
 			"#How far is the walking distance from your home to the nearest metro or bus station that you usually use?": "How far is the walking distance from your home to the nearest metro or bus station that you usually use?",
-			"#How far is your house from the nearest subway or bus station?": "How far is your house from the nearest subway or bus station?",
 			"#How many cars does your family own?": "How many cars does your family own?",
 			"#How many motorcycles does your family own?": "How many motorcycles does your family own?",
 			"#How many people live in your immediate family? Please write the total number of people, including yourself?": "How many people live in your immediate family? Please write the total number of people, including yourself?",
@@ -1519,23 +1222,18 @@
 			"#How secured do you feel when you use a taxi 'during the day'?": "How secured do you feel when you use a taxi 'during the day'?",
 			"#How secured do you feel when you use a taxi in 'urban areas'?": "How secured do you feel when you use a taxi in 'urban areas'?",
 			"#How secured do you feel when you use a taxi in the 'Outside the city Areas'?": "How secured do you feel when you use a taxi in the 'Outside the city Areas'?",
-			"#I am not willing to pay more for security": "I am not willing to pay more for security",
 			"#I have never used taxis": "I have never used taxis",
 			"#I have used both regular and online shared taxi services": "I have used both regular and online shared taxi services",
 			"#I have used shared online taxis": "I have used shared online taxis",
 			"#I have used taxis in the city": "I have used taxis in the city",
-			"#I prefer not to say": "I prefer not to say",
 			"#I'm not willing to spend more for additional security.": "I'm not willing to spend more for additional security.",
 			"#If you have any experience or ideas related to this research, we would be very happy for you to share them with us.": "If you have any experience or ideas related to this research, we would be very happy for you to share them with us.",
 			"#If you have any questions or would like to discuss this research further, please contact us via the email below": "If you have any questions or would like to discuss this research further, please contact us via the email below",
-			"#Implement real-time driver tracking feature to add security": "Implement real-time driver tracking feature to add security",
 			"#Implement real-time driver tracking feature to enhance security": "Implement real-time driver tracking feature to enhance security",
 			"#Implementing surveillance features such as the use of in-cab surveillance cameras to add security and monitoring during trips": "Implementing surveillance features such as the use of in-cab surveillance cameras to add security and monitoring during trips",
 			"#Important": "Important",
 			"#In each section, please rate the importance of the issue in using a taxi on a scale of 1-5, where 1 means 'not important' and 5 means 'very important'": "In each section, please rate the importance of the issue in using a taxi on a scale of 1-5, where 1 means 'not important' and 5 means 'very important'",
 			"#It does not affect my choice": "It does not affect my choice",
-			"#Less than 1 km": "Less than 1 km",
-			"#Less than 1 year": "Less than 1 year",
 			"#Less than 3 years": "Less than 3 years",
 			"#Man": "Man",
 			"#Many times": "Many times",
@@ -1543,8 +1241,6 @@
 			"#More than 10 years": "More than 10 years",
 			"#More than 15 minutes": "More than 15 minutes",
 			"#More than 30 percent": "More than 30 percent",
-			"#More than 5 km": "More than 5 km",
-			"#More than 5 years": "More than 5 years",
 			"#Much above average": "Much above average",
 			"#My own business": "My own business",
 			"#Never": "Never",
@@ -1558,7 +1254,6 @@
 			"#Please choose based on your experience using a taxi": "Please choose based on your experience using a taxi",
 			"#Please rate the importance of each topic on a scale of 1-5, where 1 is 'not important' and 5 is 'very important'": "Please rate the importance of each topic on a scale of 1-5, where 1 is 'not important' and 5 is 'very important'",
 			"#Preface": "Preface",
-			"#Questionnaire": "Questionnaire",
 			"#Relatively important": "Relatively important",
 			"#Relatively secured": "Relatively secured",
 			"#Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification": "Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification",
@@ -1567,15 +1262,11 @@
 			"#Scoring": "Scoring",
 			"#Secured": "Secured",
 			"#Security apps are usually designed to help travelers stay safer on their travels. Some of the features of these applications include tracking, sending emergency messages, or reporting anti-social behavior or vandalism.": "Security apps are usually designed to help travelers stay safer on their travels. Some of the features of these applications include tracking, sending emergency messages, or reporting anti-social behavior or vandalism.",
-			"#Send your location or taxi information to trusted contacts while using a taxi": "Send your location or taxi information to trusted contacts while using a taxi",
 			"#Send your location or taxi information to trusted contacts while using a taxi.": "Send your location or taxi information to trusted contacts while using a taxi.",
 			"#Several times a day": "Several times a day",
 			"#Several times a month": "Several times a month",
 			"#Several times a week": "Several times a week",
 			"#Several times a year": "Several times a year",
-			"#Sexual harassment": "Sexual harassment",
-			"#Sexual harassment includes intentional and inappropriate sexual behavior, such as inappropriate physical contact. While imaginary sexual harassment is the unpleasant feeling caused by a person's interpretation or personal sensitivities that they imagine sexual intent in the behavior of others, this intent may not be real.": "Sexual harassment includes intentional and inappropriate sexual behavior, such as inappropriate physical contact. While imaginary sexual harassment is the unpleasant feeling caused by a person's interpretation or personal sensitivities that they imagine sexual intent in the behavior of others, this intent may not be real.",
-			"#Shared taxi": "Shared taxi",
 			"#Shopping": "Shopping",
 			"#Social perception": "Social perception",
 			"#Student": "Student",
@@ -1584,16 +1275,13 @@
 			"#Taxi": "Taxi",
 			"#Taxi fares": "Taxi fares",
 			"#Taxis in the city": "Taxis in the city",
-			"#The Future implementation": "The Future implementation",
 			"#The future implementation": "The future implementation",
 			"#The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.": "The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.",
 			"#The use of security applications and the possibility of reporting the issue with personal or anonymous information": "The use of security applications and the possibility of reporting the issue with personal or anonymous information",
 			"#There is no difference": "There is no difference",
-			"#This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes": "This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes",
 			"#This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.": "This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.",
 			"#Three": "Three",
 			"#Three and more than three": "Three and more than three",
-			"#Three or more": "Three or more",
 			"#Travel time": "Travel time",
 			"#Unemployed": "Unemployed",
 			"#Unsecured": "Unsecured",
@@ -1601,7 +1289,6 @@
 			"#Van": "Van",
 			"#Very important": "Very important",
 			"#We appreciate the time you spend answering this questionnaire": "We appreciate the time you spend answering this questionnaire",
-			"#We appreciate the time you spend answering this questionnaire.": "We appreciate the time you spend answering this questionnaire.",
 			"#Weekly or more": "Weekly or more",
 			"#Well below average": "Well below average",
 			"#What destinations do you most travel to?": "What destinations do you most travel to?",
@@ -1609,7 +1296,6 @@
 			"#What is your highest level of education?": "What is your highest level of education?",
 			"#What is your preference when facing any security problem in a taxi?": "What is your preference when facing any security problem in a taxi?",
 			"#Which modes of transportation do you use the most? Select more than one option if desired": "Which modes of transportation do you use the most? Select more than one option if desired",
-			"#Within walking distance": "Within walking distance",
 			"#Workplace": "Workplace",
 			"#Yes": "Yes",
 			"#Yes, I prefer a female driver, because I feel secured with a female driver": "Yes, I prefer a female driver, because I feel secured with a female driver",
@@ -1621,7 +1307,6 @@
 			"#Yes, it has an effect, I like to talk to people": "Yes, it has an effect, I like to talk to people",
 			"#Yes, most of the time": "Yes, most of the time",
 			"#Yes, sometimes": "Yes, sometimes",
-			"#Yes, up to approx": "Yes, up to approx",
 			"#Zero": "Zero",
 			"#four": "four",
 			"#how old are you?": "how old are you?",
@@ -1632,14 +1317,12 @@
 			"#not important": "not important",
 			"#once a month": "once a month",
 			"#once a week": "once a week",
-			"#other": "other",
 			"#personal car": "personal car",
 			"#rarely": "rarely",
 			"#safety": "safety",
 			"#school or university": "school or university",
 			"#security": "security",
 			"#sometimes": "sometimes",
-			"#to some extent": "to some extent",
 			"#two": "two",
 			"#very secured": "very secured",
 			"#very unsecured": "very unsecured",
@@ -1647,8 +1330,15 @@
 			"#weekly": "weekly",
 			"#what is your gender?": "what is your gender?",
 			"#with irregular intervals or without setting time": "with irregular intervals or without setting time",
-			"#yearly": "yearly",
-			"#چندین بار در روز": "چندین بار در روز"
+			"#Perceptions on Ride Sharing": "Perceptions on Ride Sharing",
+			"#m.afsary@gmail.com": "m.afsary@gmail.com",
+			"#50-69": "50-69",
+			"#>70 ": ">70 ",
+			"#1": "1",
+			"#2": "2",
+			"#3": "3",
+			"#4": "4",
+			"#5": "5"
 		},
 		"fa": {
 			"code": "fa",
@@ -1863,5 +1553,6 @@
 			"#yearly": "سالانه",
 			"#چندین بار در روز": "چندین بار در روز"
 		}
-	}
+	},
+	"id": "perception_on_ride_sharing"
 }
