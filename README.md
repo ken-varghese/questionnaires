@@ -1,42 +1,58 @@
-# 🧩 Wemolab – Questionnaires Repository
+# 🧩 Wemolab – Plan Easy Questionnaires
 
-This repository hosts open and structured research questionnaires developed by **Wemolab** and **PlanEasy**.
+This repository hosts open, structured and versioned research questionnaires developed by **Wemolab** and **Plan Easy** users.
 
-It serves as a public and versioned collection of survey instruments used in mobility, urban behaviour and sustainable transport research projects.
-
-Each questionnaire is stored in JSON format, enabling:
-- transparent documentation of survey structure,
-- interoperability with digital data collection tools,
-- version control and long-term reproducibility.
+It serves as a public archive of survey instruments used in research on **cycling, mobility, and urban behaviour**, following principles of open science and reproducibility.
 
 ---
 
 ## 📂 Structure
 
 | Folder | Description |
-|---------|--------------|
-| [`theBIKEnet/`](theBIKEnet/) | Questionnaires for the theBIKEnet project on cycling and micromobility |
-| `SmartUrbanity/` *(future)* | Reserved for questionnaires on smart mobility and urban innovation |
-| `no_project/` *(drafts)* | Space for shared or prototype questionnaires |
+|---------|-------------|
+| [`theBIKEnet/`](theBIKEnet/) | Questionnaires from the **theBIKEnet** research project on cycling and micromobility, developed by *Wemolab*, *Moving Projects Srl* and *Sapienza University of Rome (DICEA)*. |
 
 ---
 
-## 🧠 How to Use
+## 🌐 Project Website
 
-Each questionnaire file can be accessed directly from GitHub as a raw JSON resource.  
-For example:
+To learn more about the *theBIKEnet* initiative, visit the official website:  
+👉 [**https://movprojects.com/thebikenet**](https://movprojects.com/thebikenet)
+
+---
+
+## 🧠 About Plan Easy Questionnaires
+
+**Plan Easy Questionnaires** is a framework for creating, storing and executing structured surveys in JSON format.  
+It supports versioning, multilingual text, and interoperability with data-collection tools.
+
+Each file in this repository:
+- defines a single questionnaire (`.json`);
+- includes metadata such as title, version and language;
+- follows a consistent structure for rendering and analysis.
+
+Example access:
 
 https://raw.githubusercontent.com/wemolab/questionnaires/main/theBIKEnet/theBIKEnet_profile.json
 
 
-You can load, render or analyse these JSONs using your own tools or the **PlanEasy framework** for executing questionnaires interactively.
 
 ---
 
 ## 🔖 License
 
-All questionnaire content is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+All questionnaire content is released under the  
+**Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
-You are free to share and adapt the material, even for commercial purposes, provided that you give appropriate credit to **Wemolab** and **PlanEasy**.
+You are free to:
+- **Share** — copy and redistribute the material in any medium or format  
+- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially  
 
-© 2025 Wemolab and PlanEasy contributors.
+Under the following terms:
+- **Attribution** — You must give appropriate credit to **Wemolab** and **Plan Easy**,  
+  provide a link to the license, and indicate if changes were made.
+
+Full license text:  
+<https://creativecommons.org/licenses/by/4.0/>
+
+© 2025 Wemolab and Plan Easy contributors.
