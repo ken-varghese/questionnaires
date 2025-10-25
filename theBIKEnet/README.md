@@ -31,7 +31,7 @@ This folder contains the official *theBIKEnet* questionnaires in structured JSON
 ## 🌐 Official Website
 
 For more information about the project, visit  
-👉 [**thebikenet.it**](https://movprojects.com/thebikenet)
+👉 [**https://movprojects.com/thebikenet**](https://movprojects.com/thebikenet)
 
 ---
 
