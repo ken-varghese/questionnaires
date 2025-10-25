@@ -4,6 +4,7 @@
   "description": "Structured and versioned research questionnaires on cycling and micromobility.",
   "license": "CC BY 4.0",
   "authors": ["Wemolab", "PlanEasy"],
+  "website": "https://movprojects.com/thebikenet",
   "questionnaires": [
     "theBIKEnet_profile.json",
     "theBIKEnet_context.json",
