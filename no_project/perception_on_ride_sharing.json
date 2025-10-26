@@ -1342,7 +1342,8 @@
 		},
 		"fa": {
 			"code": "fa",
-			"rtl": true,
+				"#Perceptions on Ride Sharing": "برداشت‌ها درباره هم‌سفری",
+				"rtl": true,
 			"#0 (Because I don't have a driving license)": "0 (زیرا من گواهینامه رانندگی ندارم)",
 			"#0 (Because I don't have confidence in driving a car)": "(زیرا من در رانندگی ماشین اعتماد به نفس ندارم) 0",
 			"#Have you ever experienced an unpleasant touch, or an unpleasant feeling from the behavior of the driver or other passengers while using a taxi? (Imaginary sexual harassment)": "(آزار جنسی خیالی)آیا تا به حال هنگام استفاده از تاکسی، تجربه لمس ناخوشایند ،یا احساس نا خوشایندی از رفتار راننده و یا سایر مسافرین داشته‌اید؟",
