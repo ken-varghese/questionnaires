@@ -1554,5 +1554,7 @@
 			"#چندین بار در روز": "چندین بار در روز"
 		}
 	},
-	"id": "perception_on_ride_sharing"
+	"id": "perception_on_ride_sharing",
+	"db_set": "questionnaires",
+	"default_language": "fa"
 }
