@@ -81,7 +81,6 @@
       container.innerHTML = "";
 
       try {
-        // carica l'indice principale
         const repoIndex = await loadJSON(BASE + "/index.json");
 
         for (const project of repoIndex.projects) {
@@ -94,24 +93,40 @@
           desc.textContent = project.description || "";
           sec.appendChild(desc);
 
-			// aggiungi il link al sito se esiste
-			if (project.website) {
-			  const link = document.createElement("p");
-			  link.innerHTML = `🌐 <a href="${project.website}" target="_blank">Visit project website</a>`;
-			  sec.appendChild(link);
-			}
+          if (project.website) {
+            const link = document.createElement("p");
+            link.innerHTML = `🌐 <a href="${project.website}" target="_blank">Visit project website</a>`;
+            sec.appendChild(link);
+          }
 
-          // carica l'indice del progetto (es. theBIKEnet/index.json)
           const projIndex = await loadJSON(BASE + "/" + project.path);
           const list = document.createElement("ul");
 
           for (const file of projIndex.questionnaires) {
             const li = document.createElement("li");
-            const link = document.createElement("a");
-            link.href = BASE + "/" + project.id + "/" + file;
-            link.textContent = file.replace(".json", "");
-            link.target = "_blank";
-            li.appendChild(link);
+
+            const qid = file.replace(".json", "");
+            const projectId = project.id || "";
+            const basePath = projectId ? `${BASE}/${projectId}` : BASE;
+
+            const jsonLink = document.createElement("a");
+            jsonLink.href = `${basePath}/${file}`;
+            jsonLink.textContent = "📘 Definition";
+            jsonLink.target = "_blank";
+
+            const webLink = document.createElement("a");
+            const webUrl = projectId
+              ? `https://questionnaires.wemolab.eu/${projectId}/${qid}`
+              : `https://questionnaires.wemolab.eu/${qid}`;
+            webLink.href = webUrl;
+            webLink.textContent = "🧭 Answer online";
+            webLink.target = "_blank";
+            webLink.style.marginLeft = "1em";
+
+            li.appendChild(document.createTextNode(`${qid} `));
+            li.appendChild(jsonLink);
+            li.appendChild(webLink);
+
             list.appendChild(li);
           }
 

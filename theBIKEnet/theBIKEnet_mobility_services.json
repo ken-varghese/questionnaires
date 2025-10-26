@@ -526,5 +526,7 @@
 			"#Would you be willing to pay a higher fare for public transport if it meant less congestion and faster travel times?": "Would you be willing to pay a higher fare for public transport if it meant less congestion and faster travel times?"
 		}
 	},
-	"id": "theBIKEnet_mobility_services"
+	"id": "theBIKEnet_mobility_services",
+	"db_set": "questionnaires",
+	"default_language": "it"
 }

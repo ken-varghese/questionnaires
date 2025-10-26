@@ -599,5 +599,7 @@
 			"#No": "No"
 		}
 	},
-	"id": "theBIKEnet_profile"
+	"id": "theBIKEnet_profile",
+	"db_set": "questionnaires",
+	"default_language": "it"
 }

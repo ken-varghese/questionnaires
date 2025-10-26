@@ -409,5 +409,7 @@
 			"#Very high": "Very high"
 		}
 	},
-	"id": "theBIKEnet_safety_perception"
+	"id": "theBIKEnet_safety_perception",
+	"db_set": "questionnaires",
+	"default_language": "it"
 }

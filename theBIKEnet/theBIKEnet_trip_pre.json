@@ -195,5 +195,7 @@
 			"code": "it"
 		}
 	},
-	"id": "theBIKEnet_trip_pre"
+	"id": "theBIKEnet_trip_pre",
+	"db_set": "questionnaires",
+	"default_language": "it"
 }

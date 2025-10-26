@@ -712,5 +712,7 @@
 			"#Not applicable (I do not currently cycle)": "Not applicable (I do not currently cycle)"
 		}
 	},
-	"id": "theBIKEnet_beliefs_and_attitudes"
+	"id": "theBIKEnet_beliefs_and_attitudes",
+	"db_set": "questionnaires",
+	"default_language": "it"
 }

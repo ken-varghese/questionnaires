@@ -614,5 +614,7 @@
 			"#Very easy": "Very easy"
 		}
 	},
-	"id": "theBIKEnet_travel_habits"
+	"id": "theBIKEnet_travel_habits",
+	"db_set": "questionnaires",
+	"default_language": "it"
 }
