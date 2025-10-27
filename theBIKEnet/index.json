@@ -1,20 +1,35 @@
 {
-  "project": "theBIKEnet",
-  "organization": "Wemolab",
-  "description": "Structured and versioned research questionnaires on cycling and micromobility.",
-  "license": "CC BY 4.0",
-  "authors": ["Wemolab", "PlanEasy"],
-  "website": "https://movprojects.com/thebikenet",
-  "questionnaires": [
-    "theBIKEnet_profile.json",
-    "theBIKEnet_context.json",
-    "theBIKEnet_safety_perception.json",
-    "theBIKEnet_safety_behaviour.json",
-    "theBIKEnet_travel_habits.json",
-    "theBIKEnet_accidents_and_risk_factors.json",
-    "theBIKEnet_mobility_services.json",
-    "theBIKEnet_beliefs_and_attitudes.json",
-    "theBIKEnet_trip_pre.json",
-    "theBIKEnet_trip_post.json"
-  ]
+	"project": "theBIKEnet",
+	"organization": "Wemolab",
+	"description": "Structured and versioned research questionnaires on cycling and micromobility.",
+	"license": "CC BY 4.0",
+	"authors": [
+		"Wemolab",
+		"PlanEasy"
+	],
+	"website": "https://movprojects.com/thebikenet",
+	"questionnaires": [
+		"theBIKEnet_profile.json",
+		"theBIKEnet_context.json",
+		"theBIKEnet_safety_perception.json",
+		"theBIKEnet_safety_behaviour.json",
+		"theBIKEnet_travel_habits.json",
+		"theBIKEnet_accidents_and_risk_factors.json",
+		"theBIKEnet_mobility_services.json",
+		"theBIKEnet_beliefs_and_attitudes.json",
+		"theBIKEnet_trip_pre.json",
+		"theBIKEnet_trip_post.json"
+	],
+	"destination": {
+		"firestore": {
+			"apiKey": "AIzaSyD42x7Qskt3uIRtWRAOCK4n7UdDhVvLaeA",
+			"authDomain": "thebikenet-cbf65.firebaseapp.com",
+			"projectId": "thebikenet-cbf65",
+			"storageBucket": "thebikenet-cbf65.firebasestorage.app",
+			"messagingSenderId": "667853109586",
+			"appId": "1:667853109586:web:00b10f3be08c33a6fa628b",
+			"measurementId": "G-W2FEF5BHK4",
+			"providers": ["password", "google.com"]
+		}
+	}
 }
