@@ -44,7 +44,7 @@ to support reproducible research and citizen science projects.
 Data collection through questionnaires published in this repository follows  
 the **wemolab Transparency and Data Protection** framework, available here:
 
-📄 [Transparency and Data Protection Policy](transparency.md)
+📄 [PlanEasy Transparency and Data Protection Policy](https://github.com/planeasy-webgis/guidelines/blob/main/docs/transparency.md)
 
 All instruments are designed for voluntary and anonymous participation,  
 with GDPR-compliant data handling for research under *Article 89* (scientific research purposes).
