@@ -6,7 +6,7 @@ developed by **[wemolab](https://wemolab.eu/)** and collaborators in scientific 
 It serves as a public archive for survey instruments used in research on mobility, environment, and urban behaviour,  
 designed for **transparency**, **interoperability**, and **scientific reproducibility**.
 
-> 🧠 These questionnaires are designed to be fully compatible with the **[PlanEasy framework](https://github.com/planeasy)**,  
+> 🧠 These questionnaires are designed to be fully compatible with the **[PlanEasy framework](https://github.com/planeasy-webgis/)**,  
 > enabling their direct use in PlanEasy-based dashboards, mobile apps, and research workflows.
 
 ---
