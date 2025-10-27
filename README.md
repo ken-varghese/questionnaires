@@ -16,7 +16,7 @@ designed for **transparency**, **interoperability**, and **scientific reproducib
 | Folder | Description |
 |---------|-------------|
 | [`theBIKEnet/`](theBIKEnet/) | Questionnaires from the *theBIKEnet – Cycling and Micromobility Research* project, developed by wemolab, Moving Projects Srl, and Sapienza University of Rome (DICEA). |
-| [`no_projects/`](no_projects/) | Generic questionnaires developed by wemolab, independent of specific research projects. |
+| [`no_project/`](no_project/) | Generic questionnaires developed by wemolab, independent of specific research projects. |
 
 Additional research projects will be added as new wemolab initiatives evolve.
 
