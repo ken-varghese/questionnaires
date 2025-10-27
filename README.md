@@ -1,7 +1,7 @@
 # 🧩 wemolab Questionnaires
 
 **wemolab questionnaires** is an open repository of structured and versioned research questionnaires  
-developed by **[WEMO Lab](https://wemolab.eu/)** and collaborators in scientific and participatory mobility studies.
+developed by **[wemolab](https://wemolab.eu/)** and collaborators in scientific and participatory mobility studies.
 
 It serves as a public archive for survey instruments used in research on mobility, environment, and urban behaviour,  
 designed for **transparency**, **interoperability**, and **scientific reproducibility**.
@@ -15,16 +15,16 @@ designed for **transparency**, **interoperability**, and **scientific reproducib
 
 | Folder | Description |
 |---------|-------------|
-| [`theBIKEnet/`](theBIKEnet/) | Questionnaires from the *theBIKEnet – Cycling and Micromobility Research* project, developed by Wemolab, Moving Projects Srl, and Sapienza University of Rome (DICEA). |
+| [`theBIKEnet/`](theBIKEnet/) | Questionnaires from the *theBIKEnet – Cycling and Micromobility Research* project, developed by wemolab, Moving Projects Srl, and Sapienza University of Rome (DICEA). |
 | [`no_projects/`](no_projects/) | Generic questionnaires developed by wemolab, independent of specific research projects. |
 
 Additional research projects will be added as new wemolab initiatives evolve.
 
 ---
 
-## 🧠 About Wemolab Questionnaires
+## 🧠 About wemolab questionnaires
 
-Wemolab Questionnaires provides:
+wemolab questionnaires provides:
 - an **open, JSON-based structure** for representing survey instruments;
 - built-in support for **versioning**, **multilingual content**, and **modular questionnaire design**;
 - full **compatibility** with **PlanEasy** digital tools (e.g. web dashboards, mobile surveys, and data visualizers);
@@ -42,7 +42,7 @@ to support reproducible research and citizen science projects.
 
 ## 🔐 Transparency and data protection
 Data collection through questionnaires published in this repository follows  
-the **WEMO Lab Transparency and Data Protection** framework, available here:
+the **wemolab Transparency and Data Protection** framework, available here:
 
 📄 [Transparency and Data Protection Policy](transparency.md)
 
