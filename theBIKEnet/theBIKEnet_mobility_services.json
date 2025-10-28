@@ -8,7 +8,7 @@
 			"ask_consent": true,
 			"save_user_id": true
 		},
-		"gdpr_link": "https://movprojects.com/thebikenet/privacy_policy.html",
+		"gdpr_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",
 		"sections": [
 			{
 				"title": "Welcome to the theBIKEnet Mobility Services Questionnaire",

@@ -8,7 +8,7 @@
 			"ask_consent": false,
 			"save_user_id": false
 		},
-		"gdpr_link": "https://movprojects.com/thebikenet/privacy_policy.html",
+		"gdpr_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",
 		"sections": [
 			{
 				"title": "Trip Context",
