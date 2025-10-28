@@ -11,7 +11,7 @@
 	],
 	"destination": {
 		"database": {
-			"url": "http://195.231.87.8:3000/submit";
+			"url": "http://195.231.87.8:3000/submit"
 		}
 	}
 }
